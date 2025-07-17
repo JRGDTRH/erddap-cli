@@ -1,12 +1,15 @@
 **ERDDAP-CLI: A Command-Line Interface for ERDDAP Servers**
 
+**Version 1.0**
+ * Version note - Planning to incorporate better server error handling for nan returns or bad queries. Testing spatial bounds in searches with the goal to point towards a csv or shapefile for BBOX. General testing for bugs/errors all around. Began initially as an MCP project, turned into a CLI project due to erddap2mcp already existing. ERDDAP has always been accessible through different formats, but I just wanted to take my own jab at making some tools.
+
 **Introduction**
 
-ERDDAP-CLI is a command-line interface tool designed to empower users to effortlessly query and download datasets directly from ERDDAP (Environmental Research Division's Data Access Program) servers. This tool simplifies the process of accessing environmental data, providing a convenient way to interact with ERDDAP's extensive data catalog using familiar command-line commands.
+ERDDAP-CLI is a command-line interface tool designed to empower users to effortlessly query and download datasets directly from ERDDAP (Environmental Research Division's Data Access Program) servers. This tool simplifies the process of accessing environmental data, providing a convenient way to interact with ERDDAP's extensive data catalog using familiar command-line commands. 
 
 **Installation**
 
-To install the `erddap-cli` tool, you can use `pip`. The dependencies are listed in the `requirements.txt` file.
+To install the `erddap-cli` tool, download the repo to your desired location. The dependencies are listed in the `requirements.txt` file.
 
 First, navigate to the `erddap-cli` folder in your terminal. Then, run the following commands:
 
@@ -69,6 +72,7 @@ The fetch command guides you through the following steps:
 6.  **Generate Download URL:** The tool generates the appropriate download URL based on your selections.
 7.  **Fetch and Preview Data (Optional):** The tool fetches the data and provides a preview.
 8.  **Save Data (Optional):** You have the option to save the fetched data to a CSV file.
+      * Example Command: erddap-cli fetch --output ./csvoutput.csv
 
 **Usage Examples**
 * Help Results:
