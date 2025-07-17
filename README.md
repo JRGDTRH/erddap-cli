@@ -50,7 +50,7 @@ The tool includes functionalities for finding and understanding datasets on ERDD
 
   * **Searching Datasets:** Search for datasets on a specified ERDDAP server. You can use various filters, such as spatial and temporal bounds, to narrow down your search results. Limits return window, but provides pagination options.
        *Combine any keywords with a "+", e.g. text1+text2
-  * **Example Command - "erddap-cli search --server https://www.neracoos.org/erddap --query temperature+salinity+grid"
+  * **Example Command - "erddap-cli search --server https://www.neracoos.org/erddap --query temperature+grid"
   
   * **Describing Datasets:** Retrieve and display detailed metadata for a specific dataset. This includes information about its dimensions, variables, and other relevant attributes. You can choose from different output formats (text, JSON, YAML) and sections (all metadata, variables only, or dimensions only).
   * **Example Command - "erddap-cli describe --server https://www.neracoos.org/erddap" --dataset-id WW3_EastCoast_latest --section all"
