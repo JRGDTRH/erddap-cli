@@ -19,30 +19,30 @@ pip install -e .
 This will install the required libraries (`erddapy`, `pandas`, `requests`) and install `erddap-cli` as an editable package, allowing you to run it directly from the command line using the `erddap-cli` command.
 
 **ERDDAP-CLI Help**
-   *Example command - "erddap-cli -h/--help", "erddap-cli fetch -h/--help"
+   * Example command - "erddap-cli -h/--help", "erddap-cli fetch -h/--help"
 
 **Managing ERDDAP Servers**
 
 The `erddap-cli` provides commands for managing ERDDAP servers you want to interact with. These commands are located in the `erddap_cli/commands/servers.py` file.
 
   * **Listing Servers:** You can list the known ERDDAP servers, including both default servers and any custom servers you have added.
-       *Custom server json "~/.erddap_cli_servers.json"
-	   *Default servers:
-	       *NOAA CoastWatch: "https://coastwatch.pfeg.noaa.gov/erddap"
-           *IOOS Glider DAC: "https://data.ioos.us/gliders/erddap"
-           *NOAA NCEI:       "https://www.ncei.noaa.gov/erddap"
-           *NOAA PMEL:       "https://ferret.pmel.noaa.gov/pmel/erddap"
-           *NOAA SWFSC:      "https://oceanview.pfeg.noaa.gov/erddap"
-           *NOAA GOES:       "https://coastwatch.noaa.gov/erddap"
-           *PacIOOS:         "https://oos.soest.hawaii.edu/erddap"
-           *CeNCOOS:         "https://erddap.cencoos.org/erddap"
-           *SECOORA:         "https://erddap.secoora.org/erddap"
-           *NERACOOS:        "https://www.neracoos.org/erddap"
+       * Custom server json "~/.erddap_cli_servers.json"
+	   * Default servers:
+	       * NOAA CoastWatch: "https://coastwatch.pfeg.noaa.gov/erddap"
+               * IOOS Glider DAC: "https://data.ioos.us/gliders/erddap"
+               * NOAA NCEI:       "https://www.ncei.noaa.gov/erddap"
+               * NOAA PMEL:       "https://ferret.pmel.noaa.gov/pmel/erddap"
+               * NOAA SWFSC:      "https://oceanview.pfeg.noaa.gov/erddap"
+               * NOAA GOES:       "https://coastwatch.noaa.gov/erddap"
+               * PacIOOS:         "https://oos.soest.hawaii.edu/erddap"
+               * CeNCOOS:         "https://erddap.cencoos.org/erddap"
+               * SECOORA:         "https://erddap.secoora.org/erddap"
+               * NERACOOS:        "https://www.neracoos.org/erddap"
   * **Adding Custom Servers:** Add new custom ERDDAP servers to your configuration.
   * **Removing Custom Servers:** Remove existing custom ERDDAP servers from your configuration.
   * **Checking Server Status and Capabilities:** Check the status and capabilities of all configured ERDDAP servers to ensure they are accessible and understand their available data.
   
-  * **Example Command - "erddap-cli servers status"
+     * Example Command - "erddap-cli servers status"
 
 **Searching and Describing ERDDAP Datasets**
 
@@ -71,3 +71,27 @@ The fetch command guides you through the following steps:
 8.  **Save Data (Optional):** You have the option to save the fetched data to a CSV file.
 
 **Usage Examples**
+* Help Results:
+<img width="937" height="333" alt="erddap-cli-h" src="https://github.com/user-attachments/assets/2644a7e4-2c8f-42ea-b479-e77c2a3b8080" />
+
+* Server Example:
+<img width="931" height="512" alt="erddap-cli-servers" src="https://github.com/user-attachments/assets/ffb84165-3bc1-40df-be08-786942fe566a" />
+
+* Search Example:
+<img width="1897" height="391" alt="eddap-cli-search" src="https://github.com/user-attachments/assets/c52ae1c8-79a5-4202-a873-831ca8ef4c1f" />
+
+* Describe Example:
+<img width="1893" height="673" alt="erddap-cli-describe1" src="https://github.com/user-attachments/assets/b1513721-5885-4290-9ff8-faf9d25bf7ba" />
+<img width="1913" height="277" alt="erddap-cli-describe2" src="https://github.com/user-attachments/assets/b0856d4c-aa4a-4606-9ae3-125aa73507a1" />
+
+* Fetch Example:
+<img width="792" height="557" alt="erddap-cli-fetch1" src="https://github.com/user-attachments/assets/341973ec-0515-443e-8e3a-7758b5d435fb" />
+<img width="1887" height="793" alt="erddap-cli-fetch2" src="https://github.com/user-attachments/assets/6f7fcefe-5900-4e76-bcca-2c2f18d996fb" />
+
+
+
+
+
+
+
+
