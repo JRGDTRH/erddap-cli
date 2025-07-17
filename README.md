@@ -92,6 +92,10 @@ The fetch command guides you through the following steps:
 <img width="792" height="557" alt="erddap-cli-fetch1" src="https://github.com/user-attachments/assets/341973ec-0515-443e-8e3a-7758b5d435fb" />
 <img width="1887" height="793" alt="erddap-cli-fetch2" src="https://github.com/user-attachments/assets/6f7fcefe-5900-4e76-bcca-2c2f18d996fb" />
 
+**License**
+
+This project is open source and available under the MIT License.
+
 
 
 
